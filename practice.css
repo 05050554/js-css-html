@@ -1,0 +1,147 @@
+@import url('rest.css');
+/*將所有css預設值歸0*/
+
+body{
+
+}
+
+.top{
+    width: 100%;
+    height: 15%;
+    position: fixed;
+    top: 0px;
+    background-color: gainsboro;
+ 
+}
+
+
+ul.list{
+    position: fixed;
+    top: 100px;
+    right: 400px;
+}
+
+
+ul.list li{
+    position: relative;
+    float: left;
+    display: inline;
+}
+
+ul.list li a{
+    display: block;
+    padding: 12px 30px;
+    background: aliceblue;
+    color: black;
+    text-decoration: none;
+}
+
+ul.list li ul{
+    display: none;
+    /* float: left; */
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+ul.list li:hover ul {
+    display: block;
+}
+
+
+
+
+.infomation{
+
+    width: 600px;
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    right: 400px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.toppicture{
+
+    width: 300px;
+    height: 100px;
+    position: fixed;
+    left: 400px;
+    top: 20px;
+    
+}
+
+img{
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;	
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 140px;
+}
+
+.background{
+    background: url(backgroud1.jpg) no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+}
+
+.box1{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+}
+
+.box1-1{
+    position: relative; /*基準點*/
+    top: 50px;
+    left: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.box1-2{
+    position: absolute;
+    left: 300px;
+    top:50px;
+    width: 200px;
+    height: 200px;
+}
+
+.box1-3{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 80px;
+    left: 50px;
+}
+
+.box1-4{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 280px;
+    left: 300px;
+}
+
+.box1list{
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    top: -15px;
+    left: 60%;
+    
+}
+
+.box1list ul {
+    border-style: groove;
+    
+}
